@@ -8,7 +8,8 @@ package com.mycompany.actividadrepaso;
  *
  * @author iviva
  */
-public class NewMain {
-    public static void main(String[] args) {
-        System.out.println(Restador.restar (15f,4f));
-}}
+public class Restador {
+    public static float restar(float a, float b) {
+        return a - b;
+    }
+}
